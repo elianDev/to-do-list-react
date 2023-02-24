@@ -1,0 +1,22 @@
+.task:hover {
+  background: #a09c9c;
+  cursor: pointer;
+  transform: translateY(-3px);
+}
+
+.taskTitle {
+  width: 100%;
+  padding: 0.5rem 0;
+  font-size: 0.9rem;
+}
+
+.btn {
+  background: #e94f37;
+  color: #873326;
+}
+
+.btn:hover,
+.btn:focus {
+  color: #e94f37;
+  background: #873326;
+}
