@@ -4,18 +4,7 @@ import Form from "./Components/Form";
 import Tasks from "./Components/Tasks";
 
 function App() {
-  const [tasks, setTasks] = React.useState([
-    {
-      id: 1,
-      title: "Estudar programação",
-      completed: false,
-    },
-    {
-      id: 2,
-      title: "Ler livro",
-      completed: true,
-    },
-  ]);
+  const [tasks, setTasks] = React.useState([]);
 
   return (
     <div className="container">
