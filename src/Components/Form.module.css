@@ -1,0 +1,22 @@
+.form input {
+  background: none;
+  border: none;
+  padding: 0.5rem 1rem;
+  width: 100%;
+  font-size: 1rem;
+}
+
+.form input:focus {
+  outline: none;
+}
+
+.btn {
+  background: #7ac74f;
+  color: #487330;
+}
+
+.btn:hover,
+.btn:focus {
+  background: #487330;
+  color: #7ac74f;
+}
